@@ -24,6 +24,7 @@ h1 {
 h3 {
     font-size: 120%;
 }
+
 .splash {
     display: flex;
     justify-content: flex-end;
@@ -42,7 +43,7 @@ h3 {
     padding: 0.1em 0.5em 0.1em;
     height: 1.5em;
     color: #000005;
-    
+
 }
 
 .container {
@@ -69,6 +70,7 @@ h3 {
     padding: 0 15px;
     margin: 25px 0;
 }
+
 .section-contact {
     width: 80%;
     display: flex;
@@ -76,7 +78,9 @@ h3 {
     padding-left: 15px;
     margin: 25px 0;
 }
-section-contact h2, a {
+
+.section-contact h2,
+a {
     margin-right: 25px;
 }
 
@@ -91,28 +95,26 @@ section-contact h2, a {
     flex-grow: 1;
 }
 
-
 .flex-spotlight {
     background-image: url("../images/IMG_20201017_174223_524.jpg");
     background-size: cover;
     height: 600px;
     border: 6px solid #000005;
-    }
+}
 
 .flex-item {
     background-image: url("../images/IMG_20201017_174223_524.jpg");
     background-size: cover;
-    margin: 10px 0;  
+    margin: 10px 0;
     width: 47%;
     height: 200px;
     border: 6px solid #000005;
-    
-    }
-    
-.flex-text {
-        
-    }
 
+}
+
+.flex-text {
+    color: #fffffd;
+}
 
 .item-container {
     display: flex;
@@ -120,6 +122,7 @@ section-contact h2, a {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 nav,
 nav ul,
 nav li {
@@ -142,7 +145,11 @@ nav a {
     text-decoration: none;
 }
 
-a:hover, h1:hover, h2:hover, h3:hover, p:hover {
+a:hover,
+h1:hover,
+h2:hover,
+h3:hover,
+p:hover {
     color: aqua;
 }
 
