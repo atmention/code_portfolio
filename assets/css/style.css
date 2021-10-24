@@ -28,7 +28,7 @@ h3 {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding: 2%;
+    padding: 0%;
     width: 100%;
     height: 200px;
     background-image: url("../images/IMG_20201017_174223_524.jpg");
@@ -142,7 +142,7 @@ nav a {
     text-decoration: none;
 }
 
-a:hover, h1:hover {
+a:hover, h1:hover, h2:hover, h3:hover, p:hover {
     color: aqua;
 }
 
