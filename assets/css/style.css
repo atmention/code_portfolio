@@ -13,7 +13,7 @@ header {
     align-items: center;
     padding: 1%;
     background-color: whitesmoke;
-    color: 000005;
+    color: #000005;
 }
 
 /* Change font size of headings */
@@ -21,6 +21,9 @@ h1 {
     font-size: 200%;
 }
 
+h3 {
+    font-size: 120%;
+}
 .splash {
     display: flex;
     justify-content: flex-end;
@@ -63,7 +66,7 @@ h1 {
 .section-text {
     width: 80%;
     justify-content: flex-end;
-    padding-left: 15px;
+    padding: 0 15px;
     margin: 25px 0;
 }
 .section-contact {
@@ -77,6 +80,46 @@ section-contact h2, a {
     margin-right: 25px;
 }
 
+.section-work {
+    display: flex;
+    width: 80%;
+    padding: 0 15px;
+    margin: 25px 0;
+}
+
+.work-container {
+    flex-grow: 1;
+}
+
+
+.flex-spotlight {
+    background-image: url("../images/IMG_20201017_174223_524.jpg");
+    background-size: cover;
+    height: 600px;
+    border: 6px solid #000005;
+    }
+
+.flex-item {
+    background-image: url("../images/IMG_20201017_174223_524.jpg");
+    background-size: cover;
+    margin: 10px 0;  
+    width: 47%;
+    height: 200px;
+    border: 6px solid #000005;
+    
+    }
+    
+.flex-text {
+        
+    }
+
+
+.item-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 nav,
 nav ul,
 nav li {
@@ -100,7 +143,7 @@ nav a {
 }
 
 a:hover, h1:hover {
-    color: #003366;
+    color: aqua;
 }
 
 .fa {
