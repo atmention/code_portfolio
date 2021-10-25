@@ -95,10 +95,15 @@ a {
     flex-grow: 1;
 }
 
+.spotlight-parent {
+    height: 600px;
+    border: 6px;
+}
 .flex-spotlight {
     background-image: url("../images/IMG_20201017_174223_524.jpg");
     background-size: cover;
-    height: 600px;
+    height: 100%;
+    width: 100%;
     border: 6px solid #000005;
 }
 
@@ -112,10 +117,33 @@ a {
 
 }
 
-.flex-text {
-    color: #fffffd;
+.flex-spotlight:hover, flex-spotlight-parent:hover, .flex-item:hover {
+    transform: scale(1.1);
+    visibility: visible;
+}
+.flex-spotlight-text, .flex-text {
+    color: #000005;
+    position: relative;
+    width: 25%;
+    left: 10px;
+    border: 5px solid #000005;
+    padding-left: 50px;
+    background-color: rgb(140, 140, 140);
+    opacity: 0;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.flex-spotlight-text {
+    left: 40px;
+    top: 500px;
 }
 
+.flex-text {
+    left: 30px;
+    top: 130px;
+}
 .item-container {
     display: flex;
     flex-direction: row;
