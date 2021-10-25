@@ -97,31 +97,52 @@ a {
 
 .spotlight-parent {
     height: 600px;
-    border: 6px;
+    border: 6px solid #000005;
+    overflow: hidden;
 }
+
 .flex-spotlight {
     background-image: url("../images/IMG_20201017_174223_524.jpg");
     background-size: cover;
     height: 100%;
     width: 100%;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+
+.item-parent {
+    height: 200px;
+    width: 47%;
     border: 6px solid #000005;
+    margin: 10px 0;
+    overflow: hidden;
 }
 
 .flex-item {
     background-image: url("../images/IMG_20201017_174223_524.jpg");
     background-size: cover;
-    margin: 10px 0;
-    width: 47%;
-    height: 200px;
-    border: 6px solid #000005;
-
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 
-.flex-spotlight:hover, flex-spotlight-parent:hover, .flex-item:hover {
+.flex-spotlight:hover,
+.flex-item:hover {
     transform: scale(1.1);
-    visibility: visible;
 }
-.flex-spotlight-text, .flex-text {
+
+.flex-spotlight:hover .flex-spotlight-text,
+.flex-item:hover .flex-text {
+    opacity: 1;
+}
+
+.flex-spotlight-text,
+.flex-text {
     color: #000005;
     position: relative;
     width: 25%;
@@ -135,6 +156,7 @@ a {
     -o-transition: all .5s;
     transition: all .5s;
 }
+
 .flex-spotlight-text {
     left: 40px;
     top: 500px;
@@ -144,6 +166,7 @@ a {
     left: 30px;
     top: 130px;
 }
+
 .item-container {
     display: flex;
     flex-direction: row;
