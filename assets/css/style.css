@@ -96,6 +96,9 @@ a {
 }
 
 .spotlight-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 600px;
     border: 6px solid #000005;
     overflow: hidden;
@@ -113,6 +116,9 @@ a {
 }
 
 .item-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 200px;
     width: 47%;
     border: 6px solid #000005;
@@ -131,21 +137,22 @@ a {
     transition: all .5s;
 }
 
-.flex-spotlight:hover,
-.flex-item:hover {
+.spotlight-parent:hover .flex-spotlight,
+.item-parent:hover .flex-item {
     transform: scale(1.1);
 }
 
-.flex-spotlight:hover .flex-spotlight-text,
-.flex-item:hover .flex-text {
+.spotlight-parent:hover .flex-spotlight-text,
+.item-parent:hover .flex-text {
     opacity: 1;
 }
 
 .flex-spotlight-text,
 .flex-text {
     color: #000005;
-    position: relative;
-    width: 25%;
+    position: absolute;
+    z-index: 1;
+    width: 90px;
     left: 10px;
     border: 5px solid #000005;
     padding-left: 50px;
@@ -155,16 +162,6 @@ a {
     -moz-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
-}
-
-.flex-spotlight-text {
-    left: 40px;
-    top: 500px;
-}
-
-.flex-text {
-    left: 30px;
-    top: 130px;
 }
 
 .item-container {
