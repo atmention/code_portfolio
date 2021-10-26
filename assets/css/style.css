@@ -12,8 +12,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: whitesmoke;
-    color: #000005;
+    background-color: #000005;
+    color: whitesmoke;
 }
 
 /* Change font size of headings */
@@ -55,9 +55,9 @@ h3 {
     width: 20%;
     align-items: flex-end;
     padding-right: 15px;
-    border-right: 6px solid #000005;
+    border-right: 6px solid whitesmoke;
     margin: 25px 0;
-    color: #000005;
+    color: whitesmoke;
 }
 
 .section-header h1 {
@@ -76,7 +76,7 @@ h3 {
     display: flex;
     align-items: center;
     padding-left: 15px;
-    margin: 25px 0;
+    margin: 25px 0; 
 }
 
 .section-contact h2,
@@ -109,14 +109,16 @@ a {
     background-size: cover;
     height: 100%;
     width: 100%;
-    -webkit-transition: all .4s;
-    -moz-transition: all .4s;
-    -o-transition: all .4s;
-    transition: all .4s;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .item-parent {
     display: flex;
+    flex: 1;
+    flex-wrap: ;
     align-items: center;
     justify-content: center;
     height: 200px;
@@ -131,10 +133,10 @@ a {
     background-size: cover;
     height: 100%;
     width: 100%;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .spotlight-parent:hover .flex-spotlight,
@@ -153,14 +155,15 @@ a {
     position: absolute;
     z-index: 1;
     width: 120px;
+    font-weight: bolder;
     border: 5px solid #000005;
     padding-left: 5px;
     background-color: rgb(140, 140, 140);
     opacity: 0;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
 }
 
 .item-container {
@@ -169,7 +172,14 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #000005;
+    color: whitesmoke;
+}
 nav,
 nav ul,
 nav li {
@@ -187,7 +197,7 @@ nav li {
 }
 
 nav a {
-    color: #000005;
+    color: whitesmoke;
     font-size: 1.5em;
     text-decoration: none;
 }
@@ -214,21 +224,21 @@ p:hover {
 }
 
 .fa-linkedin {
-    color: #000005;
+    color: whitesmoke;
 }
 
 .fa-github {
-    color: #000005;
+    color: whitesmoke;
 }
 
 .fa-youtube {
-    color: #000005;
+    color: whitesmoke;
 }
 
 .fa-instagram {
-    color: #000005;
+    color: whitesmoke;
 }
 
 .fa-stack-overflow {
-    color: #000005;
+    color: whitesmoke;
 }
