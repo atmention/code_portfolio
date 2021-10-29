@@ -28,6 +28,10 @@ footer a {
     text-decoration: none;
 }
 
+footer h2 {
+    margin-bottom: 10px;
+}
+
 .wrapper {
     display: flex;
     width: 100%;
@@ -84,12 +88,13 @@ h3 {
     align-items: flex-end;
     padding-right: 15px;
     border-right: 6px solid #000005;
-    margin: 25px 0;
+    margin: 25px 0 15px;
     color: #000005;
 }
 
 .section-header h1 {
     text-align: right;
+    margin: 0 15px 0 5px;
 }
 
 .section-text {
@@ -99,11 +104,11 @@ h3 {
 }
 
 .p1 {
-    margin: 20px 0 0 20px;
+    margin: 20px 5px 0 20px;
 }
 
 .p2 {
-    margin: 0 0 10px 20px;
+    margin: 0 5px 10px 20px;
 }
 
 .section-work {
@@ -115,7 +120,7 @@ h3 {
     display: flex;
     width: 100%;
     flex-direction: column;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .spotlight-parent {
@@ -283,4 +288,32 @@ p:hover {
         justify-content: space-between;
     }
 
+    .splash-text {
+        font-size: 120%;
+        margin: 0 0 5px 5px;
+    }
+
+    .splash-right {
+        display: flex;
+        width: 50%;
+        height: 100%;
+        justify-content: flex-start;
+    }
+
+    footer h2 {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .section-header h1 {
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .section-header {
+        border-right: none !important;
+    }
 }
