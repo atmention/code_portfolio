@@ -30,13 +30,13 @@
 <br />
 <div align="center">
   <a href="https://atmention.github.io/code_portfolio/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="assets/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Code Portfolio</h3>
 
   <p align="center">
-    A quick refresh of website code to be more accessibile.
+    My code portfolio.
     <br />
     <a href="https://atmention.github.io/code_portfolio/">View Demo</a>
     ·
@@ -53,7 +53,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://atmention.github.io/code_portfolio/)
 
-View the commit history to see the changes made to my Code Portfolio site, making it more accessibile in the process.
+View the commit history to see the changes made to my Code Portfolio site as it developed.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -81,4 +81,4 @@ View the commit history to see the changes made to my Code Portfolio site, makin
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/tim-carrier-9a2a9a22/
 [linkedin-url-ben]: https://www.linkedin.com/in/bk09/
-[product-screenshot]: images/Screenshot_20211007-092204_Instagram.jpg
+[product-screenshot]: assets/images/screenshot.png
