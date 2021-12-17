@@ -130,8 +130,9 @@ h3 {
 }
 
 .flex-spotlight {
-    background-image: url("../images/IMG_20201017_174223_524.jpg");
+    background-image: url("../images/Screen Shot 2021-12-16 at 10.21.46 PM.png");
     background-size: cover;
+    justify-content: right;
     height: 100%;
     width: 100%;
     -webkit-transition: all .6s ease-in-out;
@@ -153,7 +154,7 @@ h3 {
 }
 
 .flex-item {
-    background-image: url("../images/IMG_20201017_174223_524.jpg");
+    background-image: url("../images/Screen Shot 2021-12-16 at 10.18.12 PM.png");
     background-size: cover;
     height: 100%;
     width: 100%;
